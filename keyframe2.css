@@ -1,0 +1,105 @@
+.box2{
+width: 680px;
+height: 40px;
+background-color: white;
+position: absolute;
+border-color: white;
+animation-name: example;
+animation-duration: 2s;
+left: 130px;
+bottom: 185px;
+animation-delay: 1s;
+background-color: #a6d1ef
+position: absolute;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+.box{
+width: 400px;
+height: 40px;
+background-color: white;
+position: absolute;
+border-color: white;
+animation-name: example;
+animation-duration: 2s;
+left: 140px;
+bottom: 600px;
+animation-delay: 1s;
+position: absolute;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes example {
+  0%{
+    background-color: #a6d1ef;
+
+    width: 0px
+  }
+  50%{
+    background-color: #a6d1ef;
+  }
+  100%{
+    background-color: #a6d1ef;
+  }
+}
+
+
+
+
+
+
+h1{
+font-size: 10vw;
+position: absolute;
+left: 130px;
+bottom: 100px;
+font-family: "futura";
+color: black;
+
+}
+
+h2{
+font-size: 10vw;
+position: absolute;
+color: gray;
+left: 130px;
+bottom: 200px;
+font-family: "futura";
+}
+
+h3{
+  font-size: 10vw;
+  position: absolute;
+  color: white;
+  left: 130px;
+  bottom: 300px;
+  font-family: "futura";
+}
+
+body{
+background-color: white;
+animation-name: body;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-delay: 1s;
+}
+
+@keyframes body {
+  0%{
+
+    background-color: white;
+
+
+  }
+  50%{
+    background-color: gray;
+  }
+
+  100%{
+    background-color: black;
+  }
+
+}
